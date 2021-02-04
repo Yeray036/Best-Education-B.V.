@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class SceneManager : MonoBehaviour
 {
     //This script will manage all scene changes, method names will tell what kind of scene it will activate.
+	//It aslo has a fade options between scenes.
     public RawImage blackFade;
     public Animator animFade;
 

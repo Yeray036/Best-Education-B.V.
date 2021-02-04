@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class SpaceShuttleController : MonoBehaviour
 {
+	//this script is attached to the spaceShuttle and is for controlling it as a player using WASD or Arrow keys by using getaxis method.
     public float upSpeed, leftRightSpeed;
     private float activeUpSpeed, activeHorizontalSpeed;
 

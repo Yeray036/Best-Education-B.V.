@@ -25,6 +25,8 @@ public class ArticleHandler : MonoBehaviour
     {
     }
 
+    //this method will activate when the user "space shuttle" enters the collider the script is attached to. 
+	//it will get the current article count and activates the right article for that collider.
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == spaceShuttle.tag)
@@ -192,6 +194,8 @@ public class ArticleHandler : MonoBehaviour
         }
     }
 
+	//this method will be used foreach article.
+	//it is the method that will activate when users clicks continue button on article in canvas.
     public void CloseArticle()
     {
         if (GameObject.Find($"Article10(Clone)"))

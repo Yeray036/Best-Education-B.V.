@@ -7,6 +7,8 @@ public class CameraMovement : MonoBehaviour
 {
     public Animator cameraMovements;
     public Animator astroMovement;
+	
+	//this script is needed to switch between animation or else it will get follow issues using the animation movement.
 
     // Start is called before the first frame update
     void Start()

@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class Asteroids : MonoBehaviour
 {
+	//this script will instatie foreach asteroid on its own.
+	//wich means that foreach asteroid the same methods will be activated but due to Random.range
+	//we can give the X position for spawning random foreach asteroid.
+	//aslo in this script it will handle the collision with the spaceshuttle it will start a impact sound and removes health from player.
     public float speed = 10.0f;
     private Rigidbody rb;
     private Vector3 screenBounds;

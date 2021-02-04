@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class BorderFollow : MonoBehaviour
 {
+	//this script will make sure the borders follow the player y position to make sure the player stays within the borders.
+	//by using this script it will make sure the fps aslo stays stable.
+	
     public Transform target;
-
-    public float speed = 150f;
+    public float speed = 500f;
     Vector3 direction;
 
     // Start is called before the first frame update

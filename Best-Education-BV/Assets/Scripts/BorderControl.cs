@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class BorderControl : MonoBehaviour
 {
+	
+	//this script is attached to the invisible borders on the left and right side.
+	//it will make sure the player stays within the x limit of the game this due to the article and question colliders.
+	//if player gets out of it, it will tell the player in the middle of the screen that the user "player" has 5 seconds to get back with an arrow pointed.
+	//if the player fails to do so it will reset the players position and artcile & question colliders. this because the player needs to learn things.
     public static GameObject spaceShuttleCharacter { get; set; }
 
     public static Vector3 initialPos { get; set; }

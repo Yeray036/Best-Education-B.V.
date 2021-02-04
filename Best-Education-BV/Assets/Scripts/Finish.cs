@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Finish : MonoBehaviour
 {
+	//finish is finish wich means this script will check if user has enough points if so the players wins. if player doesnt has enough points it will reset the points and sets the user back to starting position.
     PlayerData currentPlayer { get; set; }
     public GameObject finishObj;
     public AudioSource lostSoundEffect;

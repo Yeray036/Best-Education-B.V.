@@ -8,6 +8,7 @@ public class SaveSystem
 {
     //Due to no mysqlserver the data will be saved locally on the machine in binary format, instead of plain text to prevent cheating.
     //SAVE
+	//try catch is to make sure any issues with finding a location for the save-data is contained within the app to prevent crashes.
     public static void SavePlayer(Player player)
     {
         try

@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class QA : MonoBehaviour
 {
+	//this script is to spawn in the questions and also gets the answers of the multiple-choice option that is selected and compare that answer with the questions.
+	//the question method are filled with startCourtine this is to play the right anwser sound.
     public static string answer { get; set; }
     public static bool correctAnswer { get; set; }
 

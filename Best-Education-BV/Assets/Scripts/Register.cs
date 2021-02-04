@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Register : MonoBehaviour
 {
+	//this script is to save the data of the new player stats it will use the player object and Savesystem script to save it in a .sav file.
     public InputField usernameField;
     public InputField emailField;
     public Text errorMessage;

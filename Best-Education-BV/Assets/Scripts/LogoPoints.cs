@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class LogoPoints : MonoBehaviour
 {
-
+	//this script will instatiate in asteroid spawn object this script is attached to the prefab.
+	//it will give the user one point and also adds 1 health point if users health is bollow 100.
     public GameObject logoObjPoints;
     public GameObject spaceShuttleBounds;
     public float spawnTimeDelay = 60;

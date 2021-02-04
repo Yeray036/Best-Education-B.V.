@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Login : MonoBehaviour
 {
+	//this script will handle the login scene wich contains a email input and will check if email is found in player save data
     public InputField emailInput;
     public Text errorMessage;
 

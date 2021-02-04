@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class MainAudioPlayer : MonoBehaviour
 {
+	//this script is instatiated with DontDestroyOnLoad wich means the object that is attached to this script will not be destroyed.
+	//this is the main music object script 
     public AudioSource _audioSource { get; set; }
-
+	
 
     private void Awake()
     {

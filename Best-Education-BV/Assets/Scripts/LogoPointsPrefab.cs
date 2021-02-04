@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class LogoPointsPrefab : MonoBehaviour
 {
+	//this script will add 1 health to healthBar if player collides with prefab and also updates users score.
     public AudioSource pointHitAudio;
     private Transform sH;
     private Slider healthBar;

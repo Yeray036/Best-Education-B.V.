@@ -10,6 +10,7 @@ public class PlayerData
     public int score;
 
     //Calling constructer. with Player object as parameter.
+	//this is to pass the player save data into a playerData object.
     public PlayerData (Player player)
     {
         username = player.username;
